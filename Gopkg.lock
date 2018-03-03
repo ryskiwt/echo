@@ -1,0 +1,67 @@
+memo = "e8767e4fbacbd1288675c248c3eb5cdbb88189b0b92ec67e0e77953796a5a0fa"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/aead/chacha20"
+  packages = [".","chacha"]
+  revision = "c8d29375923a8e1d2a0f0dc0fc1d8a0aba5b97ba"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/bifurcation/mint"
+  packages = [".","syntax"]
+  revision = "30a67d8540b4f721cfea9f9ae1cd7f22d227a054"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/golang-lru"
+  packages = [".","simplelru"]
+  revision = "0fb14efe8c47ae851c0034ed7a448854d3d34cf3"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lucas-clemente/aes12"
+  packages = ["."]
+  revision = "cd47fb39b79f867c6e4e5cd39cf7abd799f71670"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lucas-clemente/fnv128a"
+  packages = ["."]
+  revision = "393af48d391698c6ae4219566bfbdfef67269997"
+
+[[projects]]
+  name = "github.com/lucas-clemente/quic-go"
+  packages = [".","internal/ackhandler","internal/congestion","internal/crypto","internal/flowcontrol","internal/handshake","internal/protocol","internal/utils","internal/wire","qerr"]
+  revision = "30851b9a3b4e958490b476fe72adafa67641361a"
+  version = "v0.7.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lucas-clemente/quic-go-certificates"
+  packages = ["."]
+  revision = "d2f86524cced5186554df90d92529757d22c1cb6"
+
+[[projects]]
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
+  version = "v0.8.0"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["curve25519","hkdf"]
+  revision = "91a49db82a88618983a78a06c1cbd4e00ab749ab"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["context","websocket"]
+  revision = "22ae77b79946ea320088417e4d50825671d82d57"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sync"
+  packages = ["errgroup"]
+  revision = "fd80eb99c8f653c847d294a001bdf2a3a6f768f5"
