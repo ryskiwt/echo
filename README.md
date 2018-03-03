@@ -22,7 +22,6 @@ $ ./wss -s 127.0.0.1:18433                                                      
 [echo-wss]2018/03/02 Server: Got 'Hello WebSocket !'
 [echo-wss]2018/03/02 Server: Got 'Hello WebSocket !'
 [echo-wss]2018/03/02 Server: Got 'Hello WebSocket !'
-[echo-wss]2018/03/02 Server: Got 'Hello WebSocket !'
 [echo-wss]2018/03/02 Remote peer 127.0.0.1:50401 disconnected
 ```
 
@@ -30,8 +29,6 @@ $ ./wss -s 127.0.0.1:18433                                                      
 
 ```sh
 $ ./wss -c 127.0.0.1:18433                                                              +[master]
-[echo-wss]2018/03/02 Client: Sending 'Hello WebSocket !'
-[echo-wss]2018/03/02 Client: Sending 'Hello WebSocket !'
 [echo-wss]2018/03/02 Client: Sending 'Hello WebSocket !'
 [echo-wss]2018/03/02 Client: Got 'Hello WebSocket !'
 [echo-wss]2018/03/02 Client: Sending 'Hello WebSocket !'
