@@ -5,7 +5,6 @@
 - TCP over IPv4 / IPv6
 - UDP over IPv4 / IPv6
 
-<br />
 ## WebSocket over TLS
 ### build
 
@@ -41,7 +40,6 @@ $ ./wss -c 127.0.0.1:18433                                                      
 [echo-wss]2018/03/02 Client: Got 'Hello WebSocket !'
 ```
 
-<br />
 ## QUIC
 ### build
 
@@ -87,7 +85,6 @@ $ ./quic -c 127.0.0.1:4242 -n 2                                                 
 [echo-quic]2018/03/02 Client: Got 'Hello QUIC !' on stream 5
 ```
 
-<br />
 ## TLS
 ### build
 
@@ -120,7 +117,6 @@ $ ./tls -c :18433 -v IPv4                                                       
 [echo-tls]2018/03/02 Client: Got 'Hello TLS !'
 ```
 
-<br />
 ## TCP
 ### build
 
@@ -153,7 +149,6 @@ $ ./tcp -c [::]:8080 -v IPv6                                                    
 [echo-tcp]2018/03/02 Client: Got 'Hello TCP !'
 ```
 
-<br />
 ## UDP
 ### build
 
@@ -184,7 +179,6 @@ $ ./udp -c :8080 -v IPv6                                                        
 [echo-udp]2018/03/02 Client: Got 'Hello UDP !'
 ```
 
-<br />
 ## memo
 ### cert creation
 
