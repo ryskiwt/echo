@@ -14,7 +14,7 @@ var (
 	server   = flag.String("s", "", "server mode : -s <server listen address>")
 	msg      = flag.String("m", "Hello QUIC !", "message to send")
 	interval = flag.Int("i", 1000, "sending interval [ms]")
-	num      = flag.Int("n", 3, "number of simultaneous streams")
+	num      = flag.Int("n", 3, "number of parallel streams")
 )
 
 var logger = log.New(os.Stdout, "[echo-quic]", log.Ldate)

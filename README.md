@@ -5,14 +5,31 @@
 - TCP over IPv4 / IPv6
 - UDP over IPv4 / IPv6
 
-## WebSocket over TLS
-### build
+## build
 
 ```sh
-$ cd wss
+$ cd xxx # xxx=wss, quic, tls, tcp, udp
 $ go build
 ```
 
+## usage
+
+```
+-c <server address>
+  	client mode
+-s <server address>
+  	server mode
+-i <interval>
+  	sending interval [ms] *client mode only (default 1000)
+-m <message>
+  	message to send (default "Hello XXX !")
+-v <version>
+    IP version *TCP/UDP only (default "IPv4")
+-n <stream number>
+    number of parallel streams *QUIC only (default 3)
+```
+
+## WebSocket over TLS
 ### server
 
 ```sh
@@ -38,13 +55,6 @@ $ ./wss -c 127.0.0.1:18433                                                      
 ```
 
 ## QUIC
-### build
-
-```sh
-$ cd quic
-$ go build
-```
-
 ### server
 
 ```sh
@@ -83,13 +93,6 @@ $ ./quic -c 127.0.0.1:4242 -n 2                                                 
 ```
 
 ## TLS
-### build
-
-```sh
-$ cd tls
-$ go build
-```
-
 ### server
 
 ```sh
@@ -115,13 +118,6 @@ $ ./tls -c :18433 -v IPv4                                                       
 ```
 
 ## TCP
-### build
-
-```sh
-$ cd tcp
-$ go build
-```
-
 ### server
 
 ```sh
@@ -147,13 +143,6 @@ $ ./tcp -c [::]:8080 -v IPv6                                                    
 ```
 
 ## UDP
-### build
-
-```sh
-$ cd udp
-$ go build
-```
-
 ### server
 
 ```sh
